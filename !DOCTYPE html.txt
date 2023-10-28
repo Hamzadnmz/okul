@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img src="logo.png" alt="" width="100"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    
+                <li><a href="#course">Anasayfa</a></li>
+                <li><a href="#campus">Hakkimizda</a></li>
+                <li><a href="#facilities">Kurslar</a></li>
+                <li><a href="#testemonials">Blog</a></li>
+                <li><a href="#ua">Iletisim</a></li>
+
+            </ul>
+            </div>
+            <i class="bi bi-list"></i>
+
+        </nav>
+    </header>
+<!--text box-->
+<div class="text-box ">
+    <h1>Burasi Udemig Kolejidir, Burda sadece gerecekler hayatta kalir</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rem dolor minima est excepturi obcaecati enim. Ducimus quaerat animi soluta quos error fugit consequuntur blanditiis.
+
+    </p>
+
+    <a href="#" class="hero-btn">Daha Fazlasi Icin Bize Ulasin </a>
+</div>
+
+<!--Egitim seviyeleri-->
+<section class="campus center-item" id="campus">
+<h1>Burada bizler sizlere cok farkli secenkleri...
+
+</h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repudiandae, impedit perferendis enim dicta aperiam. 
+
+</p>
+<div class="row">
+<div class="course-col align-box">
+    <h3>Baslangic</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id, neque eaque cupiditate animi impedit nisi.</p>
+    </div>
+
+    <div class="course-col align-box">
+        <h3>Orta</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id, neque eaque cupiditate animi impedit nisi.</p>
+        </div>
+
+        <div class="course-col align-box">
+            <h3>Ileri</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id, neque eaque cupiditate animi impedit nisi.</p>
+            </div>
+
+</div>
+
+</section>
+
+<!--campus-->
+
+<section class="campus center-item">  
+    <h1>Nerelerde Varız ?
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam itaque iure, veritatis rem voluptatum earum optio autem dignissimos.
+    </p>
+    <div class="row">
+        <div class="campus-col align-box">
+            <img src="istanbul.jpeg" alt="" >
+            <div class="layer">
+                <h3>İSTANBUL</h3>
+            </div> 
+        </div>   
+
+        <div class="campus-col align-box ">
+            <img src="istanbul.jpeg" alt="" >
+            <div class="layer">
+                <h3>OSLO</h3>
+            </div>
+        </div>
+
+
+        <div class="campus-col align-box ">
+            <img src="istanbul.jpeg" alt="" >
+            <div class="layer">
+                <h3>STOCKHOLM</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--facilities-->
+<section class="facilities center-item" id="facilities">
+
+    <h1>Farklı Ülke Birimlerimiz</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti, repudiandae molestiae doloribus repellendus, illum ratione nesciunt minima, placeat corrupti vel recusandae dolor omnis sunt assumenda. Atque distinctio animi quasi.
+
+    </p>
+    <div class="row">
+     <div class="facilities-col align-box">
+        <img src="facility.jpeg" alt="" width="400">
+        <h3>İsveç Stockholm Kütüphanesi
+
+        </h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, architecto itaque! Laborum rem tenetur dolorem, hic expedita omnis recusandae, commodi alias quibusdam optio explicabo quas, cumque eum! Eveniet impedit id ipsum.
+        </p>
+
+     </div>
+
+     <div class="facilities-col align-box">
+        <img src="facility.jpeg" alt="" width="400">
+        <h3>İsveç Stockholm Kütüphanesi
+
+        </h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, architecto itaque! Laborum rem tenetur dolorem, hic expedita omnis recusandae, commodi alias quibusdam optio explicabo quas, cumque eum! Eveniet impedit id ipsum.
+        </p>
+        
+     </div>
+
+     <div class="facilities-col align-box">
+        <img src="facility.jpeg" alt="" width="400">
+        <h3>İsveç Stockholm Kütüphanesi
+
+        </h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, architecto itaque! Laborum rem tenetur dolorem, hic expedita omnis recusandae, commodi alias quibusdam optio explicabo quas, cumque eum! Eveniet impedit id ipsum.
+        </p>
+        
+     </div>
+
+    </div>
+</section>
+
+<!--testemonials-->
+<section class="testemonials center-item" id="testemonials">
+    <h1>Yorumlar ?</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero neque magni voluptates mollitia laboriosam molestias officia dolore magnam, laudantium nihil laborum saepe ratione? Quod quisquam similique voluptatum tempore dolorem!
+    </p>
+    <div class="row">
+        <div class="testemonials-col align-box">
+            <img src="greta.jpeg" alt=""  >
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt aperiam quia molestias facere fuga?
+                </p>
+          
+            <h3>Aykutcan Çatalkaya</h3>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            </div>
+        </div>
+
+
+        <div class="testemonials-col align-box">
+            <img src="greta.jpeg" alt="" >
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt aperiam quia molestias facere fuga?
+                </p>
+           
+            <h3>Hamza Dönmezoğlu</h3>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+        </div>
+        </div>
+
+
+        <div class="testemonials-col align-box">
+            <img src="greta.jpeg" alt="" >
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt aperiam quia molestias facere fuga?
+                </p>
+            
+            <h3>Hamza Dönmezoğlu</h3>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+        </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!--Urgent Action-->
+
+<section class="ua" id="ua">
+
+    <h1>Daha ne bekliyorsun ? </br>Bize acil ulaşmak için </h1>
+    <a href="#" class="hero-btn"> Bize ulaş </a>
+</section>
+
+
+<!--footer-->
+
+<footer>
+<h1>Hakkımızda</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio laudantium impedit saepe in, ullam dolore eveniet assumenda, tenetur recusandae exercitationem sunt ut officiis aperiam minus quibusdam suscipit perferendis molestias similique!
+</p>
+
+<div class="icons">
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-linkedin"></i>
+</div>
+<p>Bahar özhan <i class="bi bi-heart-fill"></i>React Tarafından Geliştirilmiştir.</p>
+
+</footer>
+
+
+</body>
+</html> 
